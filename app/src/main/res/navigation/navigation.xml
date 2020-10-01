@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation_events"
+    app:startDestination="@id/eventsFragment">
+
+    <fragment
+        android:id="@+id/eventsFragment"
+        android:name="com.nino.ibmsicred.views.EventsFragment"
+        android:label="fragment_events"
+        tools:layout="@layout/fragment_events" >
+
+        <action
+            android:id="@+id/action_eventsFragment_to_eventDetailFragment"
+            app:destination="@id/eventDetailFragment"
+            app:enterAnim="@anim/fade_in"
+            app:exitAnim="@anim/fade_out" />
+
+    </fragment>
+
+    <fragment
+        android:id="@+id/eventDetailFragment"
+        android:name="com.nino.ibmsicred.views.EventDetailFragment"
+        android:label="fragment_event_detail"
+        tools:layout="@layout/fragment_event_detail">
+
+        <argument android:name="id_event" app:argType="string" />
+        <action
+            android:id="@+id/action_eventDetailFragment_to_checkinInterestedDialog"
+            app:destination="@id/checkinInterestedDialog"
+            app:enterAnim="@anim/fade_in"
+            app:exitAnim="@anim/fade_out" />
+
+    </fragment>
+    <fragment
+        android:id="@+id/checkinInterestedDialog"
+        android:name="com.nino.ibmsicred.views.CheckinInterestedDialog"
+        android:label="CheckinInterestedDialog" />
+
+
+</navigation>

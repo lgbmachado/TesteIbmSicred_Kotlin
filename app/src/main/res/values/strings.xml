@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Teste Ibm-Sicred</string>
+
+    <!--Detalhes do evento-->
+    <string name="text_people" translation_description="Texto com o título da lista de pessoas associadas ao evento.">Pessoas:</string>
+    <string name="event_localization" translation_description="Texto com o título da localização do evento.">Localização do evento:</string>
+    <string name="event_price" translation_description="Texto com o título do preço.">Preço: </string>
+    <string name="image_event_description" translation_description="Texto com a descrição da imagem do evento.">Imagem do evento</string>
+    <string name="error_get_detail_events" translation_description="Mensagem ao ocorrer erro ao obter detalhes do evento.">Erro ao obter detalhes do evento.</string>
+
+    <!--Caixa de diálogo.-->
+    <string name="text_data_interested" translation_description="Texto solicitando dados do interessado pelo evento."> Entre com os dados do interessado:</string>
+    <string name="name_field_hint" translation_description="Texto com a descrição do campo nome.">Nome</string>
+    <string name="email_field_hint" translation_description="Texto com a descrição do campo e-mail.">e-mail</string>
+    <string name="button_ok_text" translation_description="Texto do botão OK.">Ok</string>
+    <string name="button_cancel_text" translation_description="Texto do botão cancela.">Cancela</string>
+    <string name="incomplete_data_interested" translation_description="Mensagem quando existem campos vazios.">É necessário completar todos os campos.</string>
+    <string name="success_send_data_interested" translation_description="Mensagem ao ocorrer erro ao enviar dados de pessoa interssada.">Dados enviados com sucesso.</string>
+    <string name="error_send_data_interested" translation_description="Mensagem ao ocorrer erro ao enviar dados de pessoa interssada.">Erro ao enviar dados.</string>
+
+    <!--Eventos-->
+    <string name="error_get_events" translation_description="Mensagem ao ocorrer erro ao obter os eventos.">Erro ao obter os eventos.</string>
+</resources>
